@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails xml_batch_import: development" uuid="08df2611-f9fa-4b88-8d44-393144a291ef">
+      <user-name>root</user-name>
+      <user-password>dfd8dfc5dfc5dfde</user-password>
+      <schema-pattern>xml_batch_import.*</schema-pattern>
+      <default-schemas>xml_batch_import.*</default-schemas>
+    </data-source>
+    <data-source name="Rails xml_batch_import: test" uuid="6d61e187-ed63-4b7c-a1c8-4e0fe668936a">
+      <first-sync>true</first-sync>
+      <user-name>root</user-name>
+      <user-password>dfd8dfc5dfc5dfde</user-password>
+    </data-source>
+    <data-source name="Rails xml_batch_import: production" uuid="96fad00e-03c4-4efe-832f-7d0beaf79547">
+      <first-sync>true</first-sync>
+      <user-name>xml_batch_import</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddff2dfe7dfe6dff5dfe8dfebdffedfe9dfe2dff5dfe3dfe7dffadfe5dff8dffedff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    </data-source>
+  </component>
+</project>

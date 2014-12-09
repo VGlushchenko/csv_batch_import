@@ -1,0 +1,43 @@
+<% provide(:title, 'Home') %>
+
+
+<h1>Home Page</h1>
+
+<div class="row">
+    <div class="col-md-12">
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th width="20%">Name</th>
+          <th width="15%">Phone</th>
+          <th width="65%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% @businesses.each do |business| %>
+            <tr>
+              <td><%= business.business_name %></td>
+              <td><%= business.business_phone %></td>
+              <td><%= business.business_description %></td>
+            </tr>
+        <% end %>
+        </tbody>
+      </table>
+    </div>
+
+
+  <%= will_paginate @businesses %>
+
+  <div class="row">
+
+    <div class="col-md-6 form-group">
+
+      <%= form_tag import_path, multipart: true do %>
+          <%= file_field_tag :file, class: 'btn btn-sm'%>
+          <%= submit_tag "Import CSV", class: 'btn btn-sm btn-primary' %>
+      <% end %>
+
+    </div>
+  </div>
+
+</div>
